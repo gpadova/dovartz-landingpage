@@ -9,9 +9,11 @@ export function Contact() {
       id="contact"
       className="mx-auto max-w-md scroll-mt-10 px-4 py-8 md:max-w-6xl md:py-12"
     >
-      <h2 className="h2 mb-6 md:px-12 lg:text-5xl">Vamos Conversar!</h2>
+      <h2 className="h2 sm:mb-6 md:px-12 text-4xl lg:text-5xl">
+        Vamos Conversar!
+      </h2>
       <div className="grid gap-y-10 md:grid-cols-2">
-        <div className="border-primary-900 pt-8 md:border-r md:pl-12 md:pr-20">
+        <div className="border-primary-900 pt-4 sm:pt-8 md:border-r md:pl-12 md:pr-20">
           <p className="description text-lg">
             Dê o próximo passo para modernizar seu imóvel. Tem dúvidas ou está
             pronto para receber um orçamento? Entre em contato conosco!

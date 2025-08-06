@@ -6,15 +6,13 @@ import { BenefitsVideo } from "./benefits/benefits-video";
 
 const features = [
   {
-    icon: <Icons.home className="size-6 text-primary" fill="var(--primary)" />,
+    icon: <Icons.home className="size-6 text-primary" />,
     title: "Conforto personalizado",
     description:
       "Controle luzes, climatização, cortinas e som com apenas um toque ou comando de voz.",
   },
   {
-    icon: (
-      <Icons.shield fill="var(--primary)" className="size-6 text-primary" />
-    ),
+    icon: <Icons.shield className="size-6 text-primary" />,
     title: "Segurança reforçada",
     description:
       "Sensores inteligentes, câmeras e fechaduras eletrônicas aumentam a proteção do seu lar.",
@@ -49,7 +47,7 @@ export function Benefits() {
   return (
     <div className="flex flex-col bg-background w-full">
       <BenefitsHeader className="flex sm:hidden" />
-      <div className="bg-background flex flex-col md:flex-row items-start justify-center w-full gap-12 sm:pb-12 sm:min-h-screen sm:pr-12">
+      <div className="bg-background flex flex-col-reverse md:flex-row items-start justify-center w-full sm:gap-12 sm:pb-12 sm:min-h-screen sm:pr-12">
         <BenefitsVideo />
         <div className="flex flex-col w-full items-start gap-2 sm:pr-4 px-6 sm:px-0">
           <BenefitsHeader className="hidden sm:block" />

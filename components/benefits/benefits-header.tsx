@@ -17,7 +17,7 @@ export function BenefitsHeader({ className }: { className?: string }) {
         Benefícios
       </h1>
 
-      <p className="text-muted-foreground text-base leading-[18.2px]">
+      <p className="text-muted-foreground text-base leading-[18.2px] text-center sm:text-left">
         Aproveite os benefícios da automação inteligente para sua residência ou
         empreendimento.
       </p>

@@ -9,8 +9,8 @@ export function ProductsSpecificList() {
   ));
 
   return (
-    <div className=" h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 mb-12">
+    <div className=" h-full py-10 sm:py-20">
+      <h2 className="max-w-7xl pl-4 mx-auto text-3xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 sm:mb-12">
         Soluções Inteligentes para sua Casa.
       </h2>
       <Carousel items={cards} />

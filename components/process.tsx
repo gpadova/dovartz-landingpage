@@ -44,9 +44,9 @@ export function Process() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center w-full max-w-7xl mx-auto">
-      <div className="flex flex-row items-center justify-between h-[600px] overflow-hidden">
-        <div className="flex flex-col items-center justify-center w-1/2 px-8 py-10 gap-8">
+    <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between h-[1100px] md:h-[600px] overflow-hidden">
+        <div className="flex flex-col items-center justify-center w-full sm:w-1/2 px-8 sm:py-10 gap-8 text-center sm:text-left">
           <h2 className="text-4xl font-bold">
             Assessoria completa da instalação à manutenção
           </h2>
@@ -60,7 +60,7 @@ export function Process() {
             <EstimateButton />
           </div>
         </div>
-        <div className="w-1/2 p-10">
+        <div className="w-full sm:w-1/2 p-10">
           <AnimatedList>
             {steps.map((step, index) => {
               return (
@@ -83,14 +83,3 @@ export function Process() {
     </div>
   );
 }
-
-// Assessoria completa da instalação à manutenção
-
-// - Levantamento técnico e definição de escopo personalizado
-// - Projeto e dimensionamento dos sistemas de automação
-// - Instalação e integração de dispositivos inteligentes
-// - Configuração de redes e conectividade
-// - Controle centralizado e interface personalizada
-// - Suporte técnico e manutenção especializada
-// - Integração com sistemas de segurança
-// Automação inteligente e gestão integrada, oferecendo soluções completas para residências e empreendimentos, com foco em eficiência, segurança e alto desempenho em todos os ambientes.

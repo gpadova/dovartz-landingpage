@@ -11,7 +11,7 @@ import { Location } from "@/components/location/location";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white w-screen">
       <Navigation />
       <Hero />
       <ProductsGrid />
