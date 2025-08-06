@@ -13,9 +13,9 @@ export function BenefitsHeader({ className }: { className?: string }) {
         Smart Home
       </Badge>
 
-      <h1 className="font-medium text-foreground text-4xl lg:text-5xl leading-tight text-center sm:text-left max-w-[360px] sm:max-w-lg">
+      <h2 className="font-medium text-foreground text-4xl lg:text-5xl leading-tight text-center sm:text-left max-w-[360px] sm:max-w-lg">
         Benefícios
-      </h1>
+      </h2>
 
       <p className="text-muted-foreground text-base leading-[18.2px] text-center sm:text-left">
         Aproveite os benefícios da automação inteligente para sua residência ou
