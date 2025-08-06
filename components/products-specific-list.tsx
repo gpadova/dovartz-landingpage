@@ -1,3 +1,5 @@
+"use client";
+
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import { productsSpecificList } from "@/lib/data/products-specific-list";
 
