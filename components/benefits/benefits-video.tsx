@@ -46,7 +46,7 @@ export function BenefitsVideo() {
   }, []);
 
   return (
-    <div className="w-full h-screen overflow-hidden flex items-center justify-center relative">
+    <div className="w-full h-screen overflow-hidden flex items-start justify-center relative">
       {!isPlaying && (
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary/50 rounded-full p-3 cursor-pointer transition-all duration-300 z-10"
