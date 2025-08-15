@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/navigation";
 import { Hero } from "@/components/hero";
-import { Contact } from "@/components/contact";
+import { Contact } from "@/components/contact/contact";
 import { Footer } from "@/components/footer";
 import { WhatsappIcon } from "@/components/whatsapp-bottom-icon";
 import { Process } from "@/components/process";
